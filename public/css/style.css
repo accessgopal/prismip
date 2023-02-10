@@ -1,0 +1,72 @@
+@font-face {
+    font-family: Axifroma;
+    src: url("../fonts/Axiforma-Book.woff2") format("woff2");
+    font-weight: normal;
+}
+
+body {
+    /*font-family: Axifroma;*/
+    /*font-size: 12;*/
+}
+
+.home-bg {
+    /*background-image: url('/img/triangle-bg.webp');*/
+    /*filter: grayscale(90%);*/
+    background: url('/img/triangle-bg.webp');
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
+.about-bg {
+    /*background-image: url('/img/triangle-bg.webp');*/
+    /*filter: grayscale(50%);*/
+    background:url('/img/about-us-bg-01.webp'), url('/img/about-us-bg-02.webp');
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
+.contact-bg {
+    /*background-image: url('/img/triangle-bg.webp');*/
+    /*filter: grayscale(50%);*/
+    background:url('/img/contact-bg.webp'), linear-gradient(165deg,rgba(155,155,155,1) 10%, rgba(5, 5, 5, 1));
+    background-position: center;
+    background-size: auto;
+    background-blend-mode: multiply;
+}
+
+.f-gs {
+    filter: grayscale(100%);
+}
+.f-gs:hover {
+    filter: grayscale(0%);
+}
+
+.bg-dark {
+    background-color: #030303 !important;
+}
+
+.bg-success {
+    background-color: #37b207 !important;
+}
+
+.btn-danger {
+    background-color: rgba(222,30,30,1);
+}
+
+.bg-square {
+    filter: saturate(400%);
+    background: linear-gradient(185deg,rgba(255,255,255,1)50%, rgba(3, 3, 3, 1) 30%);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
+.fancy-b {
+    border-radius: 130px 130px 120px 120px / 0px 108px 0px 108px;
+}
+
+.bg-green {
+    background-color: rgb(32,102,17);
+}
